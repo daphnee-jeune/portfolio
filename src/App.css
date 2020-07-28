@@ -1,0 +1,610 @@
+
+:root {
+  --main-color:  #ECF0F1;
+  --accent-color: rgb(170, 151, 84);
+  --text-color: #000;
+  --opaque-yellow: rgba(170,151, 84, 0.5);
+  --text: #4a4a4a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  padding: 2.5rem 8rem 2.5rem 10rem;
+  border-top: 2px solid var(--accent-color);
+  box-shadow: 1px 1px 15px rgb(185, 185, 185);
+}
+
+.navbar a {
+  margin: 0 30px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navLinks {
+  margin: 0 0 0 -24rem;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.nav-logo {
+  position: relative;
+  right: 5rem;
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+  color: #4a4a4a;
+}
+
+.social {
+  display: flex;
+  margin: 0;
+  width: 15%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 650px;
+}
+
+.title,
+.tag-line {
+  color: var(--accent-color);
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+.tag-line {
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  width: 85%;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem 5rem 0 0;
+  font-family: 'Russo One', sans-serif;
+}
+
+.latest {
+  margin-left: -32rem;
+}
+
+.projectList {
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projectContainer {
+  background: rgba(255, 255, 255, 0.96);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 28%;
+  margin: 2% 0.5%;
+  min-height: 320px;
+  border-radius: 1.2rem;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project:hover {
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+}
+
+.projectImg {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.project a {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.project h1 {
+  margin: 0.8rem 0;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.desc {
+  padding: 1.2rem;
+  height: 80px;
+  margin: 0;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.githubLink {
+  color: var(--accent-color);
+}
+
+.githubLink:hover {
+  color: #30856b;
+  transition: all 0.4s ease-in-out;
+}
+
+.description {
+  text-align: justify;
+  width: 50%;
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 1.8rem 0;
+}
+
+footer * {
+  margin: 5px 0;
+}
+
+.footer-social:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
+
+.about-me-wrapper {
+  background: white;
+  height: 750px;
+  border-top: 1px solid grey;
+}
+
+.skills {
+  height: 615px;
+  background: var(--opaque-yellow);
+  border-top: 1px solid grey;
+}
+
+.about-me {
+  margin: 0 auto;
+  padding: 3.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.acadgild {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.about-background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.profilePic {
+  width: 400px;
+  height: 450px;
+  position: relative;
+  bottom: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.skillsList {
+  width: 20%;
+  margin: 0 0 0 6%;
+  float: left;
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+.skillsList li {
+  margin: 2rem 4.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.skillsList h2 {
+  text-align: center;
+  margin: 0 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--accent-color)
+}
+
+.resume {
+  position: relative;
+  right: -4%;
+  bottom: 4rem;
+  font-size: 1.2rem;
+}
+
+.contact-me {
+  border: 2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--accent-color);
+  padding: 0.5rem 2rem;
+  position: relative;
+  left: 58%;
+  bottom: 100px;
+  
+}
+
+.contact-me:hover {
+  background: var(--accent-color);
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+footer p {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  width: 6%;
+}
+
+.footer-social {
+  color: var(--text);
+}
+
+@media (max-width: 1030px) {
+  .navbar {
+    height: 6%;
+  }
+
+  .navbar * {
+    font-size: 0.6rem;
+  }
+
+  .header{
+    height: 550px;
+  }
+
+  .tag-line {
+    width: 70%;
+    font-size: 1rem;
+  }
+
+  .about-me-wrapper {
+    padding: 1rem 0;
+    height: 600px;
+  }
+  
+  .resume {
+    position: relative;
+    right: 12%;
+    bottom: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .latest {
+    margin-left: 0rem;
+  }
+
+  .projectList {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project {
+    width: 28%;
+  }
+
+  .projectImg {
+    height: 150px;
+  }
+
+  .skillsList {
+    margin: 0 1rem;
+  }
+
+  .skills {
+    height: 595px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+  .skillsList li {
+    font-size: 14px;
+  }
+
+  .skillsLogo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profilePic {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .contact-me {
+    padding: 0.6rem 2rem;
+    position: relative;
+    top: -2rem;
+    left: 34rem;
+  }
+
+  .social-container {
+    width: 20%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .header {
+    color: var(--accent-color);
+    height: 350px;
+  }
+
+  .navbar {
+    box-shadow: none;
+    padding: 2.5rem;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .navLinks {
+    margin: 0;
+  }
+
+  .header, .about-me-wrapper, .skills, .projectContainer {
+    border: none;
+  }
+  .social {
+    width: 30%;
+  }
+
+  .title,
+  .tag-line {
+    text-align: center;
+    margin: 0;
+    color: var(--accent-color);
+    text-align: justify;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .tag-line {
+    font-size: 1.2rem;
+    width: 78%;
+    color: var(--text-color);
+  }
+
+  .about-me-wrapper {
+    height: 800px;
+    border-top: none;
+  }
+
+  .resume {
+    position: relative;
+    right: 22%;
+    bottom: 17rem;
+    font-size: 1.2rem;
+  }
+
+  .skills {
+    height: 400px;
+  }
+
+  .skillsList {
+    width: 25%;
+    font-size: 0.2rem;
+  }
+
+  .skillsList h2 {
+    margin: 0 1.9rem;
+    font-size: 1.5rem;
+  }
+
+  .skillsList li {
+    margin: 0.2rem 2rem;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text);
+  }
+
+  .skillsLogo {
+    margin: 0 2rem;
+  }
+
+  .projectList {
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: 45%;
+    margin: 1.2rem 0.2rem;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+
+  .contact-me {
+    position: relative;
+    left: 25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+      position: relative;
+      margin-bottom: -3rem;
+  }
+  
+  .header {
+    margin: 3.5rem 0 0 0;
+    height: 500px;
+    background: var(--opaque-yellow);
+  }
+
+  .about-background {
+    display: none;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .tag-line,
+  .title {
+    color: var(--text);
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+  }
+
+  .tag-line {
+    width: 100%;
+  }
+
+  .responsive-menu {
+    display: block;
+  }
+
+  .navLinks-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .navbar * {
+    font-size: 0.8rem;
+  }
+
+  .subTitle {
+    padding: 2rem 0 0 0;
+  }
+
+  .skills {
+    height: 700px;
+  }
+
+  .resume {
+    position: relative;
+    right: 22%;
+    bottom: 41.5rem;
+    font-size: 1.2rem;
+}
+
+  .skillsList {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem 0 1rem 0 ;
+  }
+
+  .projectContainer {
+    position: relative;
+    bottom: 2rem;
+    top: 2rem;
+  }
+
+  .project {
+    width: 90%;
+    margin: 1.2rem 0.8rem;
+  }
+
+  .skillsLogo {
+    list-style: none;
+    margin: 0.5rem 1rem;
+  }
+
+  .about-me-wrapper {
+    margin-top: -14rem;
+    padding-top: 2.2rem;
+    height: 1160px;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description {
+    margin: 0.5rem 0;
+    width: 80%;
+  }
+
+  .contact-me {
+    padding: 0.8rem 1rem;
+    left: 22%;
+  }
+
+  .social-container {
+    width: 30%;
+  }
+
+}
