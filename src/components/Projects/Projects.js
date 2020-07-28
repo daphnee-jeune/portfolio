@@ -56,34 +56,16 @@ const Projects = () => {
         },
         
         {
-            id: 7,
-            title: "Speed-typing Game",
-            src: "speedTyping.png",
-            githubLink: "https://github.com/daphnee-jeune/speed-typing-game",
-            description: "React hooks",
-            link: "https://fast-typing.netlify.app/"       
-            
-        },
-    
-        {
             id: 8,
             title: "Ecommerce Site",
             src: "ecommerce.png",
             githubLink: "https://github.com/daphnee-jeune/ecommerce",
             description: "React hooks",
             link: "https://buy-a-pic.netlify.app/"
-        },
-    
-        {
-            id: 9,
-            title: "Note Application",
-            src: "note-app.png",
-            githubLink: "https://github.com/daphnee-jeune/note-app",
-            description: "Context hook API",
-            link: "https://jot-it-down.netlify.app/"
         }
     
     ]
+
     const [projects] = useState(ProjectList) 
 
     const listOfProjects = projects.map(project => {
