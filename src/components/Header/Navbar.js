@@ -22,9 +22,9 @@ const Navbar = () => {
             <Collapsible trigger={<i className="fa fa-bars fa-2x"></i>} className="responsive-menu">
                 <div className="navLinks-responsive">
                     <Link to="home" smooth={true} duration={1000}>Home</Link>
-                    <Link to="projects" smooth={true} duration={1000}>Projects</Link>
-                    <Link to="skills" smooth={true} duration={1000}>Skills</Link>
                     <Link to="about" smooth={true} duration={1000}>About Me</Link>
+                    <Link to="skills" smooth={true} duration={1000}>Skills</Link>
+                    <Link to="projects" smooth={true} duration={1000}>Projects</Link>
                 </div>
 
                 <div className="social">

@@ -99,7 +99,7 @@ body {
 
 .projectList {
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -109,8 +109,8 @@ body {
 
 .projectContainer {
   background: rgba(255, 255, 255, 0.96);
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 3.5px solid grey;
+  border-bottom: 3.5px solid grey;
   width: 100%;
 }
 
@@ -182,7 +182,6 @@ footer {
   align-items: center;
   background-color: var(--accent-color);
   color: white;
-  padding: 1.8rem 0;
 }
 
 footer * {
@@ -196,14 +195,14 @@ footer * {
 
 .about-me-wrapper {
   background: white;
-  height: 750px;
-  border-top: 1px solid grey;
+  height: 635px;
+  border-top: 3.5px solid grey;
 }
 
 .skills {
   height: 615px;
   background: var(--opaque-yellow);
-  border-top: 1px solid grey;
+  border-top: 3.5px solid grey;
 }
 
 .about-me {
@@ -261,8 +260,8 @@ footer * {
 
 .resume {
   position: relative;
-  right: 1%;
-  bottom: 4rem;
+  left: 7%;
+  bottom: 5rem;
   font-size: 1.2rem;
 }
 
@@ -498,6 +497,10 @@ footer p {
       margin-bottom: -3rem;
   }
   
+ .navbar a {
+   font-size: 12px;
+  }
+  
   .header {
     margin: 3.5rem 0 0 0;
     height: 500px;
@@ -559,10 +562,10 @@ footer p {
 
   .resume {
     position: relative;
-    right: 28%;
-    bottom: 47.5rem;
+    left: 4%;
+    bottom: 47rem;
     font-size: 1.2rem;
-  }
+}
 
   .skillsList {
     width: 80%;
@@ -589,7 +592,7 @@ footer p {
 
   .about-me-wrapper {
     margin-top: -14rem;
-    height: 1180px;
+    height: 1280px;
   }
 
   .about-me {
@@ -606,11 +609,15 @@ footer p {
 
   .contact-me {
     padding: 0.8rem 1rem;
-    left: 22%;
+    left: 32%;
   }
 
   .social-container {
     width: 30%;
+  }
+  
+  footer {
+       margin: 2rem 0; 
   }
 
 }

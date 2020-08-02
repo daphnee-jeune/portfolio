@@ -54,14 +54,14 @@ const Projects = () => {
             description: "React hooks, DOM manipulation",
             link: "https://snake-snake.netlify.app/"
         },
-        
+
         {
-            id: 8,
-            title: "Ecommerce Site",
-            src: "ecommerce.png",
-            githubLink: "https://github.com/daphnee-jeune/ecommerce",
-            description: "React hooks",
-            link: "https://buy-a-pic.netlify.app/"
+            id: 7,
+            title: "Restful API",
+            src: "posts-api.png",
+            githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
+            description: "Node JS",
+            link: "https://rest-api-posts.herokuapp.com/posts"
         }
     
     ]
