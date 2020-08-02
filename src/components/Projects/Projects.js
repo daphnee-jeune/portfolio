@@ -5,11 +5,11 @@ const Projects = () => {
     const ProjectList = [
         {
             id: 1,
-            title: "Trivia Challenge",
-            src: "quiz-app.png",
-            githubLink: "https://github.com/daphnee-jeune/quiz-app",
-            description: "React, Typescript, Styled components",
-            link: "https://mytriviachallenge.netlify.app/"
+            title: "Restful API",
+            src: "posts-api.png",
+            githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
+            description: "Node JS",
+            link: "https://rest-api-posts.herokuapp.com/posts"
         },
         {
             id: 2,
@@ -21,6 +21,15 @@ const Projects = () => {
         },    
         {
             id: 3,
+            title: "Trivia Challenge",
+            src: "quiz-app.png",
+            githubLink: "https://github.com/daphnee-jeune/quiz-app",
+            description: "React, Typescript, Styled components",
+            link: "https://mytriviachallenge.netlify.app/"
+        },
+    
+        {
+            id: 4,
             title: "Spotify UI",
             src: "spotify.png",
             githubLink: "https://github.com/daphnee-jeune/spotify-ui",
@@ -29,7 +38,7 @@ const Projects = () => {
         },
     
         {
-            id: 4,
+            id: 5,
             title: "Blog",
             src: "blog-ui.png",
             githubLink: "https://github.com/daphnee-jeune/blog-ui",
@@ -38,30 +47,21 @@ const Projects = () => {
         },
     
         {
-            id: 5,
+            id: 6,
             title: "Paint App",
             src: "doodle.png",
             githubLink: "https://github.com/daphnee-jeune/paint-app",
             description: "React hooks",
             link: "https://doodles.netlify.app/"
         },
-    
+
         {
-            id: 6,
+            id: 7,
             title: "Snake",
             src: "snake.png",
             githubLink: "https://github.com/daphnee-jeune/snake-game",
             description: "React hooks, DOM manipulation",
             link: "https://snake-snake.netlify.app/"
-        },
-
-        {
-            id: 7,
-            title: "Restful API",
-            src: "posts-api.png",
-            githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
-            description: "Node JS",
-            link: "https://rest-api-posts.herokuapp.com/posts"
         }
     
     ]

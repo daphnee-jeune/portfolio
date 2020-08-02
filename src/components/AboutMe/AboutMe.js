@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <section className="about-me">
                     <img src={profilepic} alt="daphnee jeune" className="profilePic" />
                     <p className="description">
-                        I am a self-taught front-end engineer with 2 years of experience. Through online resources like Scrimba, Treehouse, Freecodecamp, and many YouTube channels, I learned HTML, CSS, SASS as a pre processor, and Javascript. 
+                        I am a self-taught software developer with 2 years of experience. Through online resources like Scrimba, Treehouse, Freecodecamp, and many YouTube channels, I learned HTML, CSS, SASS as a pre processor, and Javascript. 
                         In December 2018, I completed a full-stack development bootcamp, <a href="https://acadgild.com/web-development/full-stack-web-development-training-certification" className="acadgild" rel="noopener noreferrer" target="_blank">Acadgild</a>, and there, I was introduced to React Js, Node jS, Express JS, and MongoDB.
                         <br />
                         <br />
