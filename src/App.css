@@ -323,7 +323,7 @@ footer p {
   
   .resume {
     position: relative;
-    right: 12%;
+    left: 1rem;
     bottom: 4rem;
     font-size: 1.2rem;
   }
@@ -376,7 +376,7 @@ footer p {
     padding: 0.6rem 2rem;
     position: relative;
     top: -2rem;
-    left: 34rem;
+    left: 38rem;
   }
 
   .social-container {
