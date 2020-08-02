@@ -8,7 +8,7 @@ const Projects = () => {
             title: "Restful API",
             src: "posts-api.png",
             githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
-            description: "Node JS",
+            description: "Node JS, Express, MongoDB, Mongoose",
             link: "https://rest-api-posts.herokuapp.com/posts"
         },
         {
