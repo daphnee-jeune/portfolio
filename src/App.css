@@ -307,7 +307,7 @@ footer p {
     font-size: 0.6rem;
   }
 
-  .header{
+  .header {
     height: 550px;
   }
 
@@ -315,7 +315,13 @@ footer p {
     width: 70%;
     font-size: 1rem;
   }
-
+  
+  .about-me-wrapper,
+  .skills,
+  .projectContainer {
+    overflow-x: hidden;
+  }
+  
   .about-me-wrapper {
     padding: 1rem 0;
     height: 600px;
@@ -405,7 +411,7 @@ footer p {
   }
 
   .navLinks {
-    margin: 0 -30px 0 0;
+    margin: 0 22px 0 0;
   }
 
   .header, .about-me-wrapper, .skills, .projectContainer {
