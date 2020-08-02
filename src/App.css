@@ -317,6 +317,7 @@ footer p {
   }
   
   .about-me-wrapper,
+  .about-me,
   .skills,
   .projectContainer {
     overflow-x: hidden;
@@ -411,7 +412,7 @@ footer p {
   }
 
   .navLinks {
-    margin: 0 -36px 0 0;
+    margin: 0 -25px;
   }
 
   .header, .about-me-wrapper, .skills, .projectContainer {
@@ -440,7 +441,7 @@ footer p {
   }
 
   .about-me-wrapper {
-    height: 800px;
+    height: 850px;
     border-top: none;
   }
 
