@@ -10,9 +10,9 @@ const Navbar = () => {
             </div>
             <div className="navLinks">
                 <Link to="home" smooth={true} duration={1000}>Home</Link>
-                <Link to="projects" smooth={true} duration={1000}>Projects</Link>
-                <Link to="skills" smooth={true} duration={1000}>Skills</Link>
                 <Link to="about" smooth={true} duration={1000}>About</Link>
+                <Link to="skills" smooth={true} duration={1000}>Skills</Link>
+                <Link to="projects" smooth={true} duration={1000}>Projects</Link>
             </div>
             <div className="social">
                 <a href="https://www.linkedin.com/in/daphnee-jeune/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin-square fa-2x footer-social"></i></a>
