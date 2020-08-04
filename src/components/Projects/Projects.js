@@ -5,22 +5,31 @@ const Projects = () => {
     const ProjectList = [
         {
             id: 1,
+            title: "Messenger Clone",
+            src: "messenger.png",
+            githubLink: "https://github.com/daphnee-jeune/fb-messenger-clone",
+            description: "React hooks, Material UI, Firebase",
+            link: "https://messenger-fbclone.netlify.app/"
+        },
+        {
+            id: 2,
             title: "Restful API",
             src: "posts-api.png",
             githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
             description: "Node JS, Express, MongoDB, Mongoose",
             link: "https://rest-api-posts.herokuapp.com/posts"
-        },
+        },    
         {
-            id: 2,
+            id: 3,
             title: "Job Board",
             src: "jobboard.png",
             githubLink: "https://github.com/daphnee-jeune/job-board",
             description: "React hooks, React Bootstrap",
             link: "https://mynextrole.netlify.app/"
-        },    
+        },
+    
         {
-            id: 3,
+            id: 4,
             title: "Trivia Challenge",
             src: "quiz-app.png",
             githubLink: "https://github.com/daphnee-jeune/quiz-app",
@@ -29,21 +38,12 @@ const Projects = () => {
         },
     
         {
-            id: 4,
+            id: 5,
             title: "Spotify UI",
             src: "spotify.png",
             githubLink: "https://github.com/daphnee-jeune/spotify-ui",
             description: "React JS, React Router, SASS",
             link: "https://spotify-layout.netlify.app/"
-        },
-    
-        {
-            id: 5,
-            title: "Blog",
-            src: "blog-ui.png",
-            githubLink: "https://github.com/daphnee-jeune/blog-ui",
-            description: "React hooks, React Router",
-            link: "https://hot-topics.netlify.app/"
         },
     
         {
