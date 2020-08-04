@@ -6,7 +6,7 @@ const Projects = () => {
         {
             id: 1,
             title: "Messenger Clone",
-            src: "messenger.png",
+            src: "messenger-clone.png",
             githubLink: "https://github.com/daphnee-jeune/fb-messenger-clone",
             description: "React hooks, Material UI, Firebase",
             link: "https://messenger-fbclone.netlify.app/"
