@@ -298,7 +298,7 @@ footer p {
   color: var(--text);
 }
 
-@media (min-width: 769px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
   .navbar {
     height: 6%;
   }
@@ -392,7 +392,7 @@ footer p {
 
 }
 
-@media (min-width: 452px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   * {
     overflow-x: hidden;
   }
@@ -498,7 +498,7 @@ footer p {
   }
 }
 
-@media (min-width: 300px) and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .navbar {
       position: relative;
       margin-bottom: -3rem;
