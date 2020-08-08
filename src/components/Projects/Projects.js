@@ -5,11 +5,11 @@ const Projects = () => {
     const ProjectList = [
         {
             id: 1,
-            title: "Tik Tok Clone",
+            title: "Twitter Clone",
             src: "tiktok.png",
-            githubLink: "https://github.com/daphnee-jeune/tiktok-clone",
+            githubLink: "https://github.com/daphnee-jeune/twitter-clone",
             description: "React hooks, Material UI, Firebase",
-            link: "https://tiktok-clone.netlify.app/"
+            link: "https://twitter-ui-react.netlify.app/"
         },
         {
             id: 2,
