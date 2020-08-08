@@ -6,7 +6,7 @@ const Projects = () => {
         {
             id: 1,
             title: "Twitter Clone",
-            src: "tiktok.png",
+            src: "twitter.png",
             githubLink: "https://github.com/daphnee-jeune/twitter-clone",
             description: "React hooks, Material UI, Firebase",
             link: "https://twitter-ui-react.netlify.app/"
