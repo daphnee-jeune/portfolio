@@ -22,13 +22,13 @@ const Skills = () => {
                     <li>NPM</li>
                     <li>Node JS</li>
                     <li>Express JS</li>
-                    <li>Firebase</li>
                     <li>GraphQL</li>
                 </ul>
                 <ul className="skillsList database">
                     <h2>Database</h2>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
+                    <li>Firebase</li>
                 </ul>
             </aside>
     )
