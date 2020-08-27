@@ -5,6 +5,14 @@ const Projects = () => {
     const ProjectList = [
         {
             id: 1,
+            title: "Hulu Clone",
+            src: "hulu-clone.png",
+            githubLink: "https://github.com/daphnee-jeune/hulu-clone",
+            description: "React hooks, Material UI",
+            link: "https://hulu-clone-444.netlify.app/"
+        },
+        {
+            id: 3,
             title: "Twitter Clone",
             src: "twitter.png",
             githubLink: "https://github.com/daphnee-jeune/twitter-clone",
@@ -12,7 +20,7 @@ const Projects = () => {
             link: "https://twitter-ui-react.netlify.app/"
         },
         {
-            id: 2,
+            id: 3,
             title: "Messenger Clone",
             src: "messenger-clone.png",
             githubLink: "https://github.com/daphnee-jeune/fb-messenger-clone",
@@ -20,7 +28,7 @@ const Projects = () => {
             link: "https://messenger-fbclone.netlify.app/"
         },    
         {
-            id: 3,
+            id: 4,
             title: "Restful API",
             src: "posts-api.png",
             githubLink: "https://github.com/daphnee-jeune/posts-restful-api",
@@ -29,7 +37,7 @@ const Projects = () => {
         },
     
         {
-            id: 4,
+            id: 5,
             title: "Trivia Challenge",
             src: "quiz-app.png",
             githubLink: "https://github.com/daphnee-jeune/quiz-app",
@@ -38,7 +46,7 @@ const Projects = () => {
         },
     
         {
-            id: 5,
+            id: 6,
             title: "Job Board",
             src: "jobboard.png",
             githubLink: "https://github.com/daphnee-jeune/job-board",
@@ -47,21 +55,12 @@ const Projects = () => {
         },
     
         {
-            id: 6,
+            id: 7,
             title: "Spotify UI",
             src: "spotify.png",
             githubLink: "https://github.com/daphnee-jeune/spotify-ui",
             description: "React JS, React Router, SASS",
             link: "https://spotify-layout.netlify.app/"
-        },
-
-        {
-            id: 7,
-            title: "Paint App",
-            src: "doodle.png",
-            githubLink: "https://github.com/daphnee-jeune/paint-app",
-            description: "React hooks",
-            link: "https://doodles.netlify.app/"
         }
     
     ]
