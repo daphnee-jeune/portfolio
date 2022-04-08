@@ -5,9 +5,9 @@ import Collapsible from 'react-collapsible'
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="nav-logo">
-                Daphnee Jeune
-            </div>
+            <>
+                Daphnée Jeune
+            </>
             <div className="navLinks">
                 <Link to="home" smooth={true} duration={1000}>Home</Link>
                 <Link to="about" smooth={true} duration={1000}>About</Link>

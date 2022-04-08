@@ -65,15 +65,11 @@ const Projects = () => {
     
     ]
 
-    const [projects] = useState(ProjectList) 
+    const [projects] = useState(ProjectList)
 
     const listOfProjects = projects.map(project => {
-    
         const { src } = project
-
-        console.log(src)
-        
-    
+   
         return (<Project 
                     key={project.id} 
                     title={project.title}

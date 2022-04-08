@@ -26,34 +26,32 @@ body {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  width: 100%;
   height: 3rem;
-  padding: 2.5rem 8rem 2.5rem 10rem;
+  padding: 2.5rem;
   border-top: 2px solid var(--accent-color);
   box-shadow: 1px 1px 15px rgb(185, 185, 185);
 }
 
-.navbar a {
-  margin: 0 30px;
+.navLinks a {
   padding: 10px 0;
-  text-decoration: none;
   color: var(--accent-color);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .navLinks {
-  margin: 0 0 0 -24rem;
+  display: flex;
+  width: 50%;
 }
-
-.navbar a:hover {
-  border-bottom: 1px solid var(--accent-color);
+.navLinks > a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
 }
 
 .nav-logo {
-  position: relative;
-  right: 5rem;
   font-size: 25px;
   font-family: 'Russo One', sans-serif;
   color: #4a4a4a;
@@ -62,7 +60,7 @@ body {
 .social {
   display: flex;
   margin: 0;
-  width: 15%;
+  width: 5%;
 }
 
 .header {
@@ -94,7 +92,7 @@ body {
 }
 
 .latest {
-  margin-left: -26rem;
+  text-align: center;
 }
 
 .projectList {
@@ -163,6 +161,7 @@ body {
 
 .githubLink {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .githubLink:hover {
@@ -180,7 +179,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--accent-color);
+  background: var(--opaque-yellow);
   color: white;
 }
 
@@ -191,6 +190,7 @@ footer * {
 .footer-social:hover {
   opacity: 0.8;
   transition: all 0.2s ease-in-out;
+  text-transform: none;
 }
 
 .about-me-wrapper {
@@ -200,8 +200,8 @@ footer * {
 }
 
 .skills {
-  height: 615px;
-  background: var(--opaque-yellow);
+  height: 300px;
+  background: transparent;
   border-top: 3.5px solid grey;
 }
 
@@ -212,10 +212,6 @@ footer * {
   justify-content: space-evenly;
 }
 
-.acadgild {
-  color: var(--accent-color);
-  font-weight: bold;
-}
 
 .about-background {
   position: fixed;
@@ -235,19 +231,18 @@ footer * {
 }
 
 .skillsList {
-  width: 20%;
-  margin: 0 0 0 6%;
-  float: left;
-  padding: 2rem 0;
-  text-align: center;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.skillsList li {
-  margin: 2rem 4.5rem;
+.skillsList span {
+  width: 40%;
+  margin: 5rem 4.5rem;
   font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--text);
+  font-weight: bolder;
+  color: var(--accent-color);
+  text-align: center;
 }
 
 .skillsList h2 {
